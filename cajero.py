@@ -41,7 +41,7 @@ while intentos <= intentosmx:
             print("||1. Ver saldo disponible (x)  ||")
             print("||2. Retirar dinero       ( )  ||")
             print("||3. Depositar Dinero     ( )  ||")
-            print("||6. Salir                ( )  ||")
+            print("||0. Salir                ( )  ||")
             print("||                             ||")
             print("====== FOR CODER RIWI =========")
                 
@@ -54,7 +54,13 @@ while intentos <= intentosmx:
             if opcion == "2":
 
                 retiro =  int(input(print("Introduzca el valor a retirar: ")))
-               
+
+                if opcion == "3":
+           
+                    print ("Este es tu menu de retiro")
+            if opcion == "0":
+                print ("MUCHAS GRACIAS POR USAR NUESTRO CAJERO")
+                break
             
     else:
         print("password incorrect X")
