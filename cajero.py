@@ -63,6 +63,6 @@ while intentos <= intentosmx:
                 break
             
     else:
-        print("password incorrect X")
+        print("password incorrect 0")
         
 
